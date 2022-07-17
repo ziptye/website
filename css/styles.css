@@ -33,6 +33,7 @@ h1 {
   font-size: xx-large;
   letter-spacing: 0.8rem;
   animation: example 4s ease-in-out infinite alternate;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -65,23 +66,18 @@ h3 {
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
-    text-shadow: 0 0 1;
   }
   25% {
     transform: rotate(5deg);
-    text-shadow: 0 0 20;
   }
   50% {
     transform: rotate(0deg);
-    text-shadow: 0 0 30;
   }
   75% {
     transform: rotate(-5deg);
-    text-shadow: 0 0 20;
   }
   100% {
     transform: rotate(0deg);
-    text-shadow: 0 0 1;
   }
 }
 
@@ -90,7 +86,7 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: white;
-  margin-top: 20px;
+  margin: 20px 40px;
   border-radius: 10px;
   /* opacity: 0.8; */
 }
@@ -133,7 +129,7 @@ h3 {
   border-radius: 10px;
   transform: rotate(-90deg);
   position: absolute;
-  margin: -400px 8px;
+  margin: -425px 8px;
   /* margin-top: -400px; */
 }
 
@@ -171,7 +167,7 @@ h3 {
 .speakerleft {
   width: 200px;
   height: 100px;
-  background-color: aqua;
+  background-color: grey;
   position: absolute;
   left: 200px;
   top: 100px;
@@ -220,7 +216,7 @@ h3 {
 .speakerright {
   width: 200px;
   height: 100px;
-  background-color: aqua;
+  background-color: grey;
   position: absolute;
   left: 1307px;
   top: 100px;
@@ -263,6 +259,32 @@ h3 {
   margin: 15px 10px;
   position: absolute;
   left: 5px;
+}
+
+.aboutmebox {
+  height: 400px;
+  width: 1640px;
+  display: flex;
+  background-color: white;
+  margin: 20px 40px;
+  border-radius: 10px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin: 10px 10px;
+}
+
+.profilepicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: rgb(43, 42, 42);
+  position: absolute;
+  margin: 10px 1400px 0px 10px;
 }
 
 footer {
